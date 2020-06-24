@@ -30,7 +30,7 @@
 <!--te-->
 
 ## Introduction
-[Bazel](http://bazel.build) is a scalable, extensible build system developed and open-sourced by Google. It can build a large variety of programming languages at scale by leveraging distributed caching, dependency analysis, parrallel execution, and remote caching & execution.
+[Bazel](http://bazel.build) is a scalable, extensible build system developed and open-sourced by Google. It can build a large variety of programming languages at scale by leveraging distributed caching, dependency analysis, parallel execution, and remote caching & execution.
 
 One of the many extensions written for Bazel is [a suite of rules to use with Kubernetes](https://github.com/bazelbuild/rules_k8s), which makes Bazel a prime candidate to use in your CI/CD pipeline to build your applications from source code, create containers for updated builds, and deploy them to a Kubernetes cluster. This tutorial will demonstrate how to leverage Bazel in such a fashion, using GKE as our Kubernetes cluster provider.
 
